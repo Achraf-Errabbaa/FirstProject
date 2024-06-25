@@ -108,3 +108,8 @@
 .container-3{
     gap: 80px;
 }
+.know-more{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

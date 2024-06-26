@@ -201,7 +201,7 @@ footer {
       width: 40vw;
     }
     .logos{
-      flex-direction: column;
+      flex-direction: column ;
     }
     .holder{
       flex-direction: column;

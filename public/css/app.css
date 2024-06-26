@@ -1,9 +1,7 @@
 * {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
   padding: 0;
   margin: 0;
+  overflow-x:hidden;
 }
 body{
   font-family:Verdana, Geneva, Tahoma, sans-serif;
@@ -12,8 +10,6 @@ body{
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin: 10px auto;
-  /* background-color: blueviolet; */
 }
 a {
   text-decoration: none;
@@ -24,7 +20,6 @@ a {
   display: flex;
   flex-direction: column;
   background-color: #f6f6fd;
-  margin: 10px auto;
   text-align: center;
   padding: 100px;
 }
@@ -189,12 +184,92 @@ footer {
   justify-content: space-around;
   padding-bottom: 40px;
 }
-@media (max-width: 248px){
-    .container{
-        display: flex;
-        justify-content: center;
-        align-items: center;
+@media (max-width: 428px){
+    .container a{
+    font-size: 12px;
     }
-
+    .left-side a{
+      line-height: 50px;
+    }
+    .btn-1{
+      width: 100px;
+    }
+    .desk{
+      width: 100vw;
+    }
+    .btn-2{
+      width: 40vw;
+    }
+    .logos{
+      flex-direction: column;
+    }
+    .holder{
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .holder-1{
+      flex-direction: column;
+    }
+    .holder-2{
+    flex-direction:column ;
+  }
+  .left-pic{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  width: 450px;
+  }
+  .right-pic{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  width: 450px;
+  }
+  .container-3{
+    padding: 70px;
+  }
+  .parent-perce{
+    flex-direction: column;
+    gap: 30px;
+  }
+  .parent-perce h2{
+    flex-direction: column;
+    font-size: 40px;
+  }
+  .parent2{
+    flex-direction: column;
+  }
+  .signup-size input{
+    width: 272px;
+  }
+  .btn-3{
+    width: 300px;
+  }
+  .footer{
+    flex-direction: column;
+    text-align: center;
+  }
+  .comp-name{
+    text-align: center;
+  }
+  .footer p {
+    flex-direction: column; 
+    font-size:10px;
+    text-align: center;
+    padding-top: 20px;
+  }
+  .rights{
+    padding-top: 20px;
+  }
+  .links {
+    display: flex;
+    gap: 20px;
+    padding-top: 20px;
+    
+  }
+  .links a{
+    color: #6d48e5;
+  }
 
 }

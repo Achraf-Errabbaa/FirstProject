@@ -267,6 +267,10 @@ footer {
   .rights{
     padding-top: 20px;
   }
+  .t9ad{
+    gap: 10px;
+    flex-direction: column;
+  }
   .links {
     display: flex;
     gap: 20px;

@@ -184,6 +184,11 @@ footer {
   justify-content: space-around;
   padding-bottom: 40px;
 }
+.t9ad{
+  display: flex;
+  justify-content: space-between;
+  gap: 400px;
+}
 @media (max-width: 428px){
     .container a{
     font-size: 12px;

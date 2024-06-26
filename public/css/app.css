@@ -86,8 +86,6 @@ a {
 .-upper-text {
   text-align: center;
 }
-.percentage {
-}
 .parent-perce {
   display: flex;
   align-items: center;
@@ -100,7 +98,7 @@ a {
   padding-top: 40px;
 }
 .container-3 {
-  background-color: rgb(90, 88, 173);
+  background-color: #6d48e5;
   color: white;
   padding-top: 70px;
   padding-bottom: 70px;
@@ -142,6 +140,7 @@ a {
 .signup-size {
   display: flex;
   flex-direction: column;
+  padding-top: 30px;
 }
 .btn-3 {
   padding: 13px;
@@ -162,5 +161,6 @@ footer {
         justify-content: center;
         align-items: center;
     }
+
 
 }
